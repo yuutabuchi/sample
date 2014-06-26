@@ -1,0 +1,99 @@
+<!--
+  KURUMA 2014.6.25 22:20
+  コメントなので後で消してね
+
+  1) background-colorを変えたいときもCSSで指定する
+    誤)   <div background-color="color_cream"></div>
+    正1)  <div class="bg_color_cream"></div>
+          .bg_color_cream{ background-color: #fffaef; }
+    正2)  <div style="background-color: #fffaef;"></div>
+          と直書きすることもできるが、非推奨
+  2) 箇条書きはul,olなどを使うと良い
+  3) 基本本文とかは何かのdivで囲むと良いよ。<div class="p"></div>で囲んでおいた
+  4) <br/>ではなくて、正確には<br />
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>テスト</title>
+    <style>
+      body{ background-color: #fffaef; color: #2B2422;}
+      h1{color: #555; background-color: #eee; padding: 5px 5px 5px 10px; border: solid 1px #555; border-left: solid 10px #555;}
+      h3{margin-left: 10px;}
+      .p{margin-left: 30px;}
+      .color_black{color:  #2B2422;}
+      .color_light_black{color:  #2B2422;}
+      .color_bg_gray{color:  #f8f8f8;}
+      .color_gray{color:  #959595;}
+      .color_light_gray{color:  #959595*1.45;}
+      .color_lighter_gray{color:  #959595*1.64;}
+      .color_white{color:  #FFF;}
+      .color_cream{color:  #FFFCF5;}
+      .color_yellow{color:  #FAC652;}
+      .color_light_yellow{color:  #FBCF6D;}
+      .color_bg_yellow{color:  #FEF1D4;}
+      .color_blue{color:  #81BEEA;}
+      .color_light_blue{color:  #DFEFFA;}
+      .color_bg_blue{color:  #DFEFFA;}
+      .color_red{color:  #F4A39F;}
+      .color_light_red{color:  #EFB3B0;}
+      .color_bg_red{color:  #FCE8E7;}
+      .color_dark_cream{color:  #F9EED6;}
+      .color_brown{color:  #C6B38A;}
+      .color_green{color:  #BACE73;}
+      .color_link_green{color:  #2C7F54;}
+      .color_purple{color:  #D28BAF;}
+      .color_cream{color:  #FFFAEF;}
+    </style>
+  </head>
+  <body>
+    <h1>利用規約</h1>
+    <h2>第1章 総則</h2>
+    <h3>1. 当社サービスのご利用 </h3>
+    <div class="p">
+      本利用規約にご同意いただくことによって、当社のサービスをご利用いただくことができます。<br />
+      なお、無料で提供しているサービスにつきましては、本利用規約にご同意いただく手続に代えて、実際にご利用いただくことで本利用規約第1編基本ガイドラインにご同意いただいたものとみなします。<br />
+    </div>
+    <h3>2. サービス内容の保証および変更 </h3>
+    <div class="p">
+      当社は提供するサービスの内容について、瑕疵やバグがないことは保証しておりません。<br />
+      また当社は、お客様にあらかじめ通知することなくサービスの内容や仕様を変更したり、提供を停止したり中止したりすることができるものとします。
+    </div>
+    <h3>3. サービスの利用制限 </h3>
+    <div class="p">
+      当社は、サービスのご利用をXXX（以下本章で「ID」といいます）を登録された方に限定したり、当社が定める本人確認などの手続を経て一定の要件を満たしたお客様のみに限定したりするなど、利用に際して条件を付すことができるものとします。<br />
+      また、当社は反社会的勢力の構成員（過去に構成員であった方を含みます）およびその関係者の方や、サービスを悪用したり、第三者に迷惑をかけたりするようなお客様に対してはご利用をお断りしています。
+    </div>
+    <h3>4. IDの登録情報 </h3>
+    <div class="p">
+      IDを登録していただく場合、
+      <ol>
+        <li>真実かつ正確な情報を登録していただくこと、</li>
+        <li>登録内容が最新となるようお客様ご自身で適宜修正していただくことがお客様の義務となります。</li>
+      </ol>
+    </div>
+    <h3>5. IDおよびパスワードに関するお客様の責任</h3>
+    <div class="p">
+      IDとパスワードの組み合わせが登録情報と一致してログインされた場合には、当社は、当該IDを登録されているお客様ご自身によるご利用であるとみなして、当該IDを用いたサービスの利用や商品の購入などによって料金や代金（当社のサービスのご利用にかかる代金、利用料、会費その他名目は問いません。また当社が第三者から回収を委託したお客様の債務を含みます。以下「代金」といいます）が発生した場合には、当該IDを登録されているお客様に課金いたします。
+    </div>
+    <h3>6. サービス利用にあたっての順守事項</h3>
+    <h3>7. 当社のサービスなどの再利用の禁止</h3>
+    <h3>8. 当社に対する補償</h3>
+    <h3>9. お客様のデータおよびコンテンツの取扱い</h3>
+    <h3>10. 広告掲載について</h3>
+    <h3>11. 投稿などの削除、サービスの利用停止、ID削除について</h3>
+    <h3>12. 免責事項</h3>
+    <h3>13. 個別サービスガイドラインなどについて</h3>
+    <h3>14. 利用規約の変更について</h3>
+    <h3>15. 通知または連絡</h3>
+    <h3>16. 権利義務などの譲渡の禁止</h3>
+    <h3>17. 準拠法、裁判管轄</h3>
+    <h3>18. 利用規約の適用制限について</h3>
+    <h2>第2章</h2>
+
+    <h2>第3章</h2>
+    <h2>第4章</h2>
+  </body>
+</html>
+
