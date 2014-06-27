@@ -12,6 +12,10 @@
 6. 箇条書き
 
 
+## 必要なもの
+- ruby
+- bundler ( $ gem install bundler )
+
 ## slimの使い方
 - 本家: http://slim-lang.com/
 - インストール
