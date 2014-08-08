@@ -2,3 +2,5 @@
 
 bundle exec slimrb html/test.slim > public/test.html
 bundle exec sass styles/test.sass > public/test.css
+open public/test.html
+
